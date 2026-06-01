@@ -48,7 +48,7 @@ cd Lobo-post1-u7
 mvn spring-boot:run
 
 # 3. Abrir en el navegador
-# http://localhost:8080/productos
+# http://localhost:8081/productos
 ```
 
 ---
@@ -66,9 +66,18 @@ mvn spring-boot:run
 ---
 
 ## Capturas de pantalla
+Lista con 3 productos
+<img width="1365" height="338" alt="image" src="https://github.com/user-attachments/assets/b9f52ad8-19a4-4e36-856f-ca9865a6fa9d" />
+Lista con producto eliminado
+<img width="1365" height="441" alt="image" src="https://github.com/user-attachments/assets/3f6c18c6-d0d8-44ca-b5d7-e1158b670268" />
+Añadir nuevo producto
+<img width="1365" height="529" alt="image" src="https://github.com/user-attachments/assets/cd45eaeb-f81a-4656-a2d2-24e9a793f20e" />
+Producto añadido
+<img width="1365" height="328" alt="image" src="https://github.com/user-attachments/assets/8f45dd6f-2bf3-4768-b084-06e25b218149" />
+
 
 ### Lista de productos
-> Al acceder a `http://localhost:8080/productos` se muestran los 3 productos de ejemplo.
+> Al acceder a `http://localhost:8081/productos` se muestran los 3 productos de ejemplo.
 
 ### Formulario Crear / Editar
 > El mismo formulario (`formulario.html`) se reutiliza para crear y editar, cambiando el atributo `accion`.
